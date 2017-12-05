@@ -9,3 +9,8 @@ print('hello there students'.split())
 # we can tell it what to break on
 print("red:blue:green".split(':'))
 
+
+flavors = ['chocolate', 'mint', 'strawberry']
+", ".join(flavors)
+
+print(flavors)
