@@ -11,6 +11,7 @@ print("red:blue:green".split(':'))
 
 
 flavors = ['chocolate', 'mint', 'strawberry']
-", ".join(flavors)
 
-print(flavors)
+print("My favorite flavors are: {}".format(", ".join(flavors)))
+
+# You can only join string items
