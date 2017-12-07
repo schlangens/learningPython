@@ -23,3 +23,27 @@ False
 <= Less than or equal to
 >>> 5 <= 7
 True
+
+Special operator is
+>>> 5 is 5
+True
+---
+>>> a = 5
+>>> b = 5
+>>> a is b
+True
+---
+>>> c = []
+>>> d = []
+>>> c == d
+True
+* Empty lists are equiv to each other
+* is operator is not the same as ==
+>>> c is d
+False
+* is operator is comparing if two things are in the same spot in memory
+* is operator is nice to have if you want to see if a var is none
+>>> e = None
+>>> e is None
+True
+
