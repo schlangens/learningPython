@@ -1,0 +1,27 @@
+* When you find yourself doing the same thing over and over, you're stuck in a loop. When you find yourself doing the same thing over and over, you're stuck in a loop. When you find yourself-- Wow, sorry about that! Loops let us do the same task multiple times. We have two loops in Python and two ways to stop them or skip steps
+
+* for loop and while loop
+* for loop lets us do an actions a # amount of times
+---
+
+for name in ["Bob" , "Emily" , "X"]:
+    print("Hello " + name)
+
+Hello Bob
+Hello Emily
+Hello X
+
+* while loops run until the condition is falsey
+
+countdown = 3
+
+while countdown:
+    print(countdown)
+    countdown -= 1
+    print("Happy New Year!")
+
+3
+2
+1
+Happy New Year!
+
