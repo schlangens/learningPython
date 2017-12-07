@@ -1,0 +1,22 @@
+* We use the input() function to get information from a user.
+
+input("WHAT is your favorite color? ") takes an optional prompt to use when you need to ask the user a particular question. Python doesn't add any space at the end of the prompt, though, so remember to do that yourself.
+
+The value that comes in from input() is always a string, so if you need a number or something else, you'll need to convert it afterward.
+
+* Input always gives back a string
+---
+>>> input("Whats your age?")
+Whats your age?34
+'34'
+---
+>>> age = input("Whats your age? ")
+Whats your age? 34
+>>> age
+'34'
+
+* To make that a number do it like this
+>>> age = int(input("What's your age? "))
+What's your age? 32
+>>> age + 1
+33
