@@ -1,0 +1,14 @@
+* It's getting a little tiring writing all of the code over and over again. Let's see how to divide our work up into custom functions.
+
+* Functions are programming construct. It lets us do work over and over again.
+
+* To create a function we use the keyword def --> meaning define.
+followed by name of the function
+
+python functions.py                                                                               (master✱)
+He's pining for the fjords!
+
+
+python functions.py                                                                               (master✱)
+He's pining for the fjords!
+Kenneth's a lumberjack, and he's okay!
