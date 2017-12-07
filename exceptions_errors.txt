@@ -1,0 +1,4 @@
+Spoiler alert: none of us are perfect and we'll all write buggy code eventually. Python gives us some really handy tools for handling our errors, though.
+
+
+try lets us try some things in our code
