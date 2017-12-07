@@ -25,3 +25,97 @@ while countdown:
 1
 Happy New Year!
 
+---
+>>> my_list = ['hello', 'how', 'are', 'you']
+>>> for word in my_list:
+...     print(word)
+...
+hello
+how
+are
+you
+
+* You can loop things that are iterable or holds more than 1 item in it. Two examples of this would be strings and lists
+---
+
+>>> for letter in 'abcdefghijklmnopqrstuvwxyz':
+...     print(letter.upper())
+...
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+---
+>>> for num in [1, 2, 3, 4]:
+...     if num % 2 == 0:
+...             print(num)
+...
+2
+4
+---
+>>> start = 10
+>>> while start:
+...     print(start)
+...     start -= 1
+...
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+* using break in the loop allows us to stop the loop early.
+---
+>>> names = ['Kenneth', 'Amy', 'Andrew', 'QUIT', 'Lacey']
+>>> for name in names:
+...     if name == 'QUIT':
+...             break
+...     print(name)
+...
+Kenneth
+Amy
+Andrew
+---
+* To skip the item in the list you can use another keyword in Python
+---
+>>> names = ['Kenneth', 'Amy', 'Andrew', 'QUIT', 'Lacey']
+>>> for name in names:
+...     if name == 'QUIT':
+...             continue
+...     print(name)
+...
+Kenneth
+Amy
+Andrew
+Lacey
+
+
+
+
+
