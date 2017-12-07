@@ -1,0 +1,18 @@
+* We can ask Python whether or not a value is in a string or list. Information about that is definitely *in* this video.
+* we can use the in keyword to see if its included
+---
+>>> "cheese" in "cheeseshop"
+True
+* because the word "cheese" is in "cheeseshop"
+---
+>>> cheeseshop = []
+>>> "cheese" in cheeseshop
+False
+---
+>>> days_open = ["Monday", "Tuesday", "Wednesday", "Thursday"]
+>>> today = "Tuesday"
+>>> if today in days_open:
+...     print("Come on in!")
+...
+Come on in!
+
