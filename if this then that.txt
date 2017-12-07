@@ -1,0 +1,28 @@
+* Comparisons let us start to apply logic to our code. If we can compare two things, we can cause different actions depending on how that comparison turns out.
+
+
+if construct
+---
+if money > apple_cost:
+    buy_apples()
+else:
+    find_another_snack()
+---
+>>> if 5 > 2:
+...     print("Well, yeah")
+...
+Well, yeah
+---
+>>> if age > 10000:
+...     print("Wow, over 10,000 days old!")
+...
+Wow, over 10,000 days old!
+---
+>>> age = 5000
+>>> if age > 10000:
+...     print("Wow, over 10,000 days old")
+... else:
+...     print("Keep going! You'll get there!")
+...
+Keep going! You'll get there!
+
