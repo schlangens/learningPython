@@ -35,4 +35,10 @@ Keep going! You'll get there!
 ...     print("Time to get started!")
 ...
 Time to retire
-
+* The elif allows to add 2nd condition from the first if. You can have as many as you need
+* to add more functionality to the elif you can test if the condition is false.
+---
+>>> if not age > 25000:
+...     print("Whippersnapper")
+...
+Whippersnapper
