@@ -15,4 +15,11 @@ False
 ...     print("Come on in!")
 ...
 Come on in!
+---
+>>> days_open = ["Monday", "Tuesday", "Wednesday", "Thursday"]
+>>> today = "Friday"
+>>> if today not in days_open:
+...     print("Sorry we are closed")
+...
+Sorry we are closed
 
