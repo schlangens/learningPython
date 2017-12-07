@@ -25,4 +25,14 @@ Wow, over 10,000 days old!
 ...     print("Keep going! You'll get there!")
 ...
 Keep going! You'll get there!
+---
+>>> age = 22000
+>>> if age > 20000:
+...     print("Time to retire")
+... elif age > 10000:
+...     print("Lots of time left")
+... else:
+...     print("Time to get started!")
+...
+Time to retire
 
