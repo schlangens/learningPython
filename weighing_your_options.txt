@@ -1,0 +1,25 @@
+Notes about comparisons
+
+== Equals
+>>> 5 == 5
+True
+
+!= Not Equal
+>>> 5 != 7
+True
+
+> Greater Than
+>>> 5 > 7
+True
+
+< Less Than
+>>> 5 < 7
+True
+
+>= Greater than or equal to
+>>> 5 >= 7
+False
+
+<= Less than or equal to
+>>> 5 <= 7
+True
